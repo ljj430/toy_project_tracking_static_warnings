@@ -7,9 +7,8 @@ public class EmptyCatchBlock {
             int b = 0;
             int c = a/b;
             System.out.println(c);
-        } catch(ArithmeticException ae) {
+        } catch(Exception ee) {
             // An empty catch block
-            System.err.println("ArithmeticException: " + ae.getMessage());
         }
     }
 }
