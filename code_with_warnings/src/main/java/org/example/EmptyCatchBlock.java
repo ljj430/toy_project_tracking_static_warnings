@@ -9,9 +9,6 @@ public class EmptyCatchBlock {
             System.out.println(c);
         } catch(Exception ee) {
             // An empty catch block
-            if (ee instanceof ArithmeticException){
-                System.err.println("ArithmeticException:" + ee.getMessage());
-            }
         }
     }
 }
